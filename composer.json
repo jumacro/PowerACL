@@ -1,0 +1,26 @@
+{
+    "name": "sdfcloud/acl",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mithun",
+            "email": "mithun.programmer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "twbs/bootstrap": "3.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/Sdfcloud/Acl/Models"
+        ],
+        "psr-0": {
+            "Sdfcloud\\Acl\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
